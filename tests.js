@@ -76,7 +76,20 @@ describe("isVowel", function (){
         expect(typeof isVowel()).toBe("boolean");
     });
     it('should return true when the input is a vowel', function (){
-        expect().toBe(true);
-    })
+        expect(isVowel('a', 'e', 'i', 'o', 'u')).toBe(true);
+    });
+    it('should ')
 })
+
+describe("add", function (){
+    it('should return')
+});
+
+// add(2, 3) returns 5
+// add(-3, -9) returns -12
+// add("5", 6) returns 11
+// add("-4", "10") returns 6
+// add("banana", "split") returns NaN
+// add(2, "apples") returns NaN
+// add() returns NaN
 

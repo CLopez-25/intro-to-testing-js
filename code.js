@@ -14,21 +14,15 @@ function sayHello(input){
 }
 
 function isFive(input){
-    if(input === 5){
-        return true;
-    } else {
-        return false;
-    }
+    return input === 5;
 }
 
 function isEven(input){
-    if(parseFloat(input)% 2 === 0){
-        return true;
-    } else {
-        return false;
-    }
+    return parseFloat(input) % 2 === 0;
 }
 
 function isVowel(input){
-
+    if (input === 'a', 'e', 'i', 'o', 'u'){
+        return true;
+    }
 }
