@@ -78,7 +78,7 @@ describe("isVowel", function (){
     it('should return true when the input is a vowel', function (){
         expect(isVowel('a', 'e', 'i', 'o', 'u')).toBe(true);
     });
-    it('should return false when input is y', function (){
-        expect(isVowel("y")).toBe(false);
+    it('should return false when the input is banana', function (){
+        expect(isVowel("banana")).toBe(false);
     });
 });

@@ -22,5 +22,9 @@ function isEven(input){
 }
 
 function isVowel(input){
-    return !!(input === 'a', 'e', 'i', 'o', 'u');
+    if (!!(input === 'a', 'e', 'i', 'o', 'u')){
+        return true;
+    } else if (input.length){
+        return false;
+    }
 }
